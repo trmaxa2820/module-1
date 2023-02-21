@@ -112,7 +112,10 @@ h2 {
     border: 0px;
     background: #AD1818;
     border-radius: 5px;
+}
 
+.button-showServices a {
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -153,8 +156,8 @@ h2 {
     color: #AD1818;
 }
 
-.projects button{
-    box-sizing: border-box;
+.button-showAllProject{
+    display: block;
     width: 100%;
     height: 153px;
     background-color: white;
@@ -163,13 +166,14 @@ h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 41px;
+    line-height: 153px;
     text-align: center;
+    text-decoration: none;
     color: #AD1818;
     margin-bottom: 150px;
 }
 
-.projects button:hover{
+.button-showAllProject:hover{
     background-color: #AD1818;
     color: #FFFFFF;
 }
