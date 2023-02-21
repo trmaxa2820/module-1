@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 body{
+    font-family: 'Manrope', sans-serif;
     width: 1400px;
     margin: 0px;
 }
@@ -103,6 +106,7 @@ h2 {
     font-size: 45px;
     line-height: 61px;
     color: #121212;
+    margin-bottom: 30px;
 }
 
 .button-showServices {
@@ -312,4 +316,5 @@ footer .navigation a {
     color: #FFFFFF;
 
     opacity: 0.5;
+    text-align: center;
 }
