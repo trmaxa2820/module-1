@@ -3,11 +3,11 @@
 body{
     font-family: 'Manrope', sans-serif;
     align-items: center;
-    width: 100%;
+    width: 1400px;
+    margin: 0 auto;
 }
 
 header {
-    margin: auto 124px;
     height: 25.18px;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@ header {
 }
 
 main {
-    margin: 73.76px 125px 0px;
+    margin: 73.76px 0px 0px;
 }
 
 h1 {
