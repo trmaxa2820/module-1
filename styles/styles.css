@@ -206,7 +206,7 @@ h2 {
     margin: 0px 125px 60px;
 }
 
-.service-bottom {
+.service:nth-last-child(1){
     margin-bottom: 150px;
 }
 
@@ -228,6 +228,7 @@ h2 {
     width: 100%;
     height: 717px;
     background-size: cover;
+    position: relative;
 }
 
 .examples p{
@@ -240,7 +241,8 @@ h2 {
     width: 443px;
     height: 82px;
 
-    margin: 575px auto 60px 125px;;
+    left: 125px;
+    bottom: 60px;
     color: #FFFFFF;
 }
 
