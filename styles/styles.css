@@ -2,15 +2,15 @@
 
 body{
     font-family: 'Manrope', sans-serif;
-    align-items: center;
     margin: 0 auto;
 }
 
-header,main,.examples{
-    width: 1400px;
+header,main, .contacts{
+    max-width: 1400px;
 }
 
 header {
+    max-width: 1150px;
     margin: 30px auto 0;
     height: 25.18px;
     display: flex;
@@ -27,14 +27,7 @@ header {
 .navigation {
     display: flex;
     flex-direction: row;
-}
-
-.navigation-li {
-    padding-left: 60px;
-}
-
-.navigation-aboutUs{
-    padding-left: 0px;
+    gap: 60px;
 }
 
 .navigation a {
@@ -56,6 +49,7 @@ header {
 
 main {
     margin: 73.76px auto 0px;
+    max-width: 1150px;
 }
 
 h1 {
@@ -67,10 +61,12 @@ h1 {
 
 .main-title {
     position: relative;
+    max-width: 1150px;
     margin-top: 30px;
     height: 500px;
     background-image: url('../resources/MainTitle.svg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 
 .main-title p {
@@ -143,13 +139,17 @@ h2 {
 
 .project img {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .project .title{
+    margin-bottom: 15px;
+
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
+
     color: #121212;
 }
 
@@ -191,19 +191,26 @@ h2 {
     background: #121212;
 }
 
-.services h2 {
-    margin: 151px auto 34px 127px;
+.services-wrapper {
+    max-width: 1150px;
+    margin: 0px auto 60px;
+}
+
+.services .services-wrapper h2 {
+    margin: 151px auto 34px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    text-align: left;
     text-transform: uppercase;
 
     color: #FFFFFF;
 }
 
 .service{
-    margin: 0px 125px 60px;
+    max-width: 1150px;
+    margin: 0px auto 60px;
 }
 
 .service:nth-last-child(1){
@@ -224,10 +231,12 @@ h2 {
 }
 
 .examples {
+    margin: 0 auto;
     background-image: url('../resources/Examples.svg');
-    width: 100%;
+    max-width: 1400px;
     height: 717px;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
     position: relative;
 }
 
@@ -243,11 +252,11 @@ h2 {
 
     left: 125px;
     bottom: 60px;
-    color: #FFFFFF;
+    color: white;
 }
 
 .contacts{
-    margin: 150px auto 0px 124px;
+    margin: 150px auto 0px;
     height: 553px;
 }
 
