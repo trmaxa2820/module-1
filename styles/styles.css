@@ -301,6 +301,8 @@ h2 {
 footer{
     height: 229px;
     width: 100%;
+
+    padding-top: 60px;
     background-color: #121212;
 
     display: flex;
@@ -312,6 +314,7 @@ footer{
 .navigation-footer {
     display: flex;
     flex-direction: row;
+    gap: 55px;
 }
 
 footer .navigation-footer a {
