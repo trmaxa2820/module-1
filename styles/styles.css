@@ -64,9 +64,16 @@ h1 {
     max-width: 1150px;
     margin-top: 30px;
     height: 500px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+
     background-image: url('../resources/MainTitle.svg');
     background-repeat: no-repeat;
-    /* background-size: cover; */
 }
 
 .main-title p {
