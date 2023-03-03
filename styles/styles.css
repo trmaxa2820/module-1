@@ -253,7 +253,7 @@ h2 {
 }
 
 .examples {
-    margin: 0 125px;
+    margin: 0 0;
     background-image: url('../resources/Examples.svg');
     max-width: 1400px;
     height: 717px;
