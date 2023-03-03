@@ -11,8 +11,9 @@ header,main, .contacts{
 
 header {
     max-width: 1150px;
-    margin: 30px auto 0;
+    margin: 30px 125px 0;
     height: 25.18px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +50,7 @@ header {
 }
 
 main {
-    margin: 73.76px auto 0px;
+    margin: 73.76px 125px 0px;
     max-width: 1150px;
 }
 
@@ -88,7 +89,8 @@ h1 {
 }
 
 .aboutUs {
-    margin: 150px 0px 0px;
+    width: 1051px;
+    margin-top: 150px;
 }
 
 h2 {
@@ -105,12 +107,14 @@ h2 {
 }
 
 .aboutUs p {
-    margin: 30px 224px 30px 0px;
+    margin: 30px auto 30px;
+
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 61px;
+
     color: #121212;
 }
 
@@ -205,11 +209,11 @@ h2 {
 
 .services-wrapper {
     max-width: 1150px;
-    margin: 0px auto 60px;
+    margin: 0px 125px 60px;
 }
 
 .services .services-wrapper h2 {
-    margin: 151px auto 34px;
+    margin: 151px 0 34px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -224,7 +228,7 @@ h2 {
 
 .service{
     max-width: 1150px;
-    margin: 0px auto 60px;
+    margin: 0px 0 60px;
 }
 
 .service:nth-last-child(1){
@@ -247,7 +251,7 @@ h2 {
 }
 
 .examples {
-    margin: 0 auto;
+    margin: 0 125px;
     background-image: url('../resources/Examples.svg');
     max-width: 1400px;
     height: 717px;
@@ -273,7 +277,7 @@ h2 {
 }
 
 .contacts{
-    margin: 150px auto 150px;
+    margin: 150px 125px 150px;
     padding-left: 124px;
 }
 
