@@ -273,8 +273,8 @@ h2 {
 }
 
 .contacts{
-    margin: 150px auto 0px;
-    height: 553px;
+    margin: 150px auto 150px;
+    padding-left: 124px;
 }
 
 .contacts .logo {
