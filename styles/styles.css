@@ -55,6 +55,7 @@ main {
 }
 
 h1 {
+    margin-bottom: 30px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -63,9 +64,9 @@ h1 {
 }
 
 .main__title {
+    margin-bottom: 150px;
     position: relative;
     max-width: 1150px;
-    margin-top: 30px;
     height: 500px;
 
     background-image: url('../resources/MainTitle.svg');
@@ -89,8 +90,8 @@ h1 {
 }
 
 .aboutUs {
+    margin-bottom: 150px;
     width: 1051px;
-    margin-top: 150px;
 }
 
 h2 {
@@ -102,12 +103,14 @@ h2 {
 }
 
 .aboutUs h2 {
+    margin-bottom: 30px;
+
     text-transform: uppercase;
     color: #121212;
 }
 
 .aboutUs p {
-    margin: 30px 0 30px;
+    margin-bottom: 30px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -128,6 +131,7 @@ h2 {
 }
 
 .button-showServices a {
+
     text-decoration: none;
     font-family: 'Manrope';
     font-style: normal;
@@ -138,7 +142,7 @@ h2 {
 }
 
 .projects {
-    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .projects h2{
@@ -203,6 +207,7 @@ h2 {
 
 
 .services {
+    padding-top: 151px;
     display: flex;
     flex-direction: column;
     background: #121212;
@@ -210,11 +215,11 @@ h2 {
 
 .service__wrapper {
     max-width: 1150px;
-    margin: 0px 125px 0;
+    margin-left: 125px;
 }
 
 .service__wrapper h2 {
-    margin: 151px 0 34px;
+    margin-bottom: 34px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -229,7 +234,7 @@ h2 {
 
 .service{
     max-width: 1150px;
-    margin: 0px 0 60px;
+    margin-bottom: 60px;
 }
 
 .service:nth-last-child(1){
@@ -253,10 +258,12 @@ h2 {
 }
 
 .examples {
-    margin: 0 0;
+    margin-bottom: 150px;
+
     background-image: url('../resources/Examples.svg');
     max-width: 1400px;
     height: 717px;
+
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -279,17 +286,18 @@ h2 {
 }
 
 .contacts{
-    margin: 150px 125px 150px;
+    margin-left: 125px;
+    margin-bottom: 160px;
 }
 
 .contacts__logo {
     width: 24px;
     height: 24px;
-    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .contacts h2{
-    margin-top: 13px;
+    margin-bottom: 32px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -302,7 +310,7 @@ h2 {
 }
 
 .contacts__number{
-    margin-top: 32px;
+    margin-bottom: 30px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -314,7 +322,6 @@ h2 {
 }
 
 .contacts__email{
-    margin-top: 30px;
     width: 430px;
 
     font-family: 'Manrope';
@@ -343,6 +350,8 @@ footer{
 }
 
 .footer__navigation {
+    margin-bottom: 87px;
+
     display: flex;
     flex-direction: row;
     gap: 55px;
@@ -367,7 +376,7 @@ footer .footer__navigation a {
 }
 
 .footer__author{
-    margin: 87px auto 30px;
+    margin: 0 auto 30px;
 
     font-family: 'Manrope';
     font-style: normal;
