@@ -107,13 +107,14 @@ h2 {
 }
 
 .aboutUs p {
-    margin: 30px auto 30px;
+    margin: 30px 0 30px;
 
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 61px;
+    letter-spacing: -0.03em;
 
     color: #121212;
 }
