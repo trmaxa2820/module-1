@@ -124,6 +124,8 @@ h2 {
     line-height: 25px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+
+    position: relative;
 }
 
 .aboutUs h2 {
@@ -307,7 +309,7 @@ h2 {
     max-width: 1400px;
     height: 717px;
 
-    margin-bottom: 150px;
+    margin-bottom: 186px;
 
     background-image: url('../resources/Examples.svg');
     background-repeat: no-repeat;
@@ -350,6 +352,10 @@ h2 {
     background-image: url(../resources/ContactsLogo.png);
     background-repeat: no-repeat;
     background-size: contain;
+
+    left: -4px;
+    top: -36px;
+    position: absolute;
 }
 .contacts h2{
     margin-bottom: 32px;
