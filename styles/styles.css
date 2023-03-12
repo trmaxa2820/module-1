@@ -315,6 +315,7 @@ h2 {
     background-image: url(../resources/ContactsLogo.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 
     left: -4px;
     top: -36px;
@@ -331,7 +332,7 @@ h2 {
     color: #121212;
 }
 
-.contacts__number{
+.contacts__phone{
     display: block;
 
     margin-bottom: 30px;
@@ -346,7 +347,7 @@ h2 {
 
 .contacts__email{
     display: block;
-    width: 430px;
+    width: 412px;
 
     font-weight: 400;
     font-size: 60px;
@@ -355,6 +356,7 @@ h2 {
 
     color: #121212;
     opacity: 0.5;
+    
 }
 
 .contacts__email:after{
