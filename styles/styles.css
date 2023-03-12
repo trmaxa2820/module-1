@@ -8,6 +8,12 @@ body{
     margin: 0 auto;
 }
 
+div, a, p, h1, h2, h3, nav, button {
+    font-style: normal;
+	font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
+}
+
 body, main, .contacts{
     max-width: 1400px;
 }

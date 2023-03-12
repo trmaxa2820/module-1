@@ -23,16 +23,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Manrope', sans-serif;
-	font-style: normal;
-	letter-spacing: -0.03em;
 }
 
-button{
-	font-style: normal;
-	font-family: 'Manrope', sans-serif;
-	letter-spacing: -0.03em;
-}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
