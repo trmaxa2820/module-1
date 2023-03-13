@@ -14,7 +14,7 @@ div, a, p, h1, h2, h3, nav, button {
     letter-spacing: -0.03em;
 }
 
-body, main, .contacts{
+main, .contacts{
     max-width: 1400px;
 }
 
@@ -22,7 +22,7 @@ header {
     max-width: 1150px;
     height: 25.18px;
 
-    margin: 32.82px 125px 70px;
+    margin: 32.82px auto 70px;
 
     display: flex;
     flex-direction: row;
@@ -71,7 +71,7 @@ header {
 }
 
 main {
-    margin-left: 125px;
+    margin-inline: auto;
     max-width: 1150px;
 }
 
@@ -278,7 +278,7 @@ h2 {
 }
 
 .examples {
-    max-width: 1400px;
+    width: 100%;
     height: 717px;
 
     margin-bottom: 186px;
@@ -305,7 +305,7 @@ h2 {
 }
 
 .contacts{
-    margin-left: 125px;
+    margin-inline: auto;
     margin-bottom: 150px;
 }
 
@@ -378,7 +378,7 @@ h2 {
 
 footer{
     height: 229px;
-    width: 1400px;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
