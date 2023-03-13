@@ -14,7 +14,7 @@ div, a, p, h1, h2, h3, nav, button {
     letter-spacing: -0.03em;
 }
 
-main, .contacts{
+main{
     max-width: 1400px;
 }
 
@@ -306,6 +306,7 @@ h2 {
 }
 
 .contacts{
+    max-width: 1150px;
     margin-inline: auto;
     margin-bottom: 150px;
 }
